@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 一个简单的vue项目，即vue-cli的使用 · Hexo</title><meta name="description" content="一个简单的vue项目，即vue-cli的使用 - ERVee"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="Hexo"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/ERVeepp/ERVeeBlog" target="_blank" class="nav-list-link">GITHUB</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">一个简单的vue项目，即vue-cli的使用</h1><div class="post-info">Dec 28, 2016</div><div class="post-content"><h2 id="一：node环境的安装"><a href="#一：node环境的安装" class="headerlink" title="一：node环境的安装"></a>一：node环境的安装</h2><p>首先当然是安装node环境了，找到node官网，下载最新的node环境</p>
+<ul>
+<li>安装之后打开cmd，输入 node -v 查看node版本号，输入 npm -v 查看npm版本号</li>
+<li>如果显示’node’不是内部或外部命令，也不是可运行的程序，这就尴尬了，点击我的电脑右键，打开属性，然后是高级系统设置，然后是环境变量，然后是PATH，双击，复制下面的npm命令路径<br>C:\Users\Administrator\AppData\Roaming\npm;</li>
+<li>然后再次打开cmd，输入 node -v 查看node版本号，输入 npm -v 查看npm版本号</li>
+</ul>
+<h2 id="二：安装淘宝镜像"><a href="#二：安装淘宝镜像" class="headerlink" title="二：安装淘宝镜像"></a>二：安装淘宝镜像</h2><ul>
+<li>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="external">https://registry.npm.taobao.org</a></li>
+</ul>
+<h2 id="三：安装webpack"><a href="#三：安装webpack" class="headerlink" title="三：安装webpack"></a>三：安装webpack</h2><ul>
+<li>npm install webpack -g</li>
+</ul>
+<h2 id="四：安装vue脚手架"><a href="#四：安装vue脚手架" class="headerlink" title="四：安装vue脚手架"></a>四：安装vue脚手架</h2><ul>
+<li>npm install vue-cli -g</li>
+</ul>
+<h2 id="五：在硬盘上找一个文件夹放工程用的，在终端中进入该目录"><a href="#五：在硬盘上找一个文件夹放工程用的，在终端中进入该目录" class="headerlink" title="五：在硬盘上找一个文件夹放工程用的，在终端中进入该目录"></a>五：在硬盘上找一个文件夹放工程用的，在终端中进入该目录</h2><ul>
+<li>cd 目录路径</li>
+</ul>
+<h2 id="六：根据模板创建项目"><a href="#六：根据模板创建项目" class="headerlink" title="六：根据模板创建项目"></a>六：根据模板创建项目</h2><ul>
+<li>vue init webpack-simple 工程名字&lt;工程名字不能用中文&gt;</li>
+<li>会有一些初始化的设置，如下输入:<br>Target directory exists. Continue? (Y/n)直接回车默认(然后会下载 vue2.0模板，这里可能需要连代理)<br>Project name (vue-test)直接回车默认<br>Project description (A Vue.js project) 直接回车默认<br>Author 写你自己的名字</li>
+</ul>
+<h2 id="七：cd-命令进入创建的工程目录"><a href="#七：cd-命令进入创建的工程目录" class="headerlink" title="七：cd 命令进入创建的工程目录"></a>七：cd 命令进入创建的工程目录</h2><ul>
+<li>vue init webpack-simple 工程名字&lt;工程名字不能用中文&gt;</li>
+</ul>
+<h2 id="八：安装项目依赖"><a href="#八：安装项目依赖" class="headerlink" title="八：安装项目依赖"></a>八：安装项目依赖</h2><ul>
+<li>npm install</li>
+</ul>
+<h2 id="九：安装-vue-路由模块vue-router和网络请求模块vue-resource"><a href="#九：安装-vue-路由模块vue-router和网络请求模块vue-resource" class="headerlink" title="九：安装 vue 路由模块vue-router和网络请求模块vue-resource"></a>九：安装 vue 路由模块vue-router和网络请求模块vue-resource</h2><ul>
+<li>npm install vue-router vue-resource –save</li>
+</ul>
+<h2 id="十：启动项目模块vue-resource"><a href="#十：启动项目模块vue-resource" class="headerlink" title="十：启动项目模块vue-resource"></a>十：启动项目模块vue-resource</h2><ul>
+<li>npm run dev</li>
+</ul>
+<h2 id="十一：写在后面"><a href="#十一：写在后面" class="headerlink" title="十一：写在后面"></a>十一：写在后面</h2><ul>
+<li>给一个掘金的详细教程<br><a href="https://aotu.io/notes/2016/10/13/vue2/?o2src=juejin&amp;o2layout=compat" target="_blank" rel="external">点击我</a></li>
+</ul>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/12/28/如何使用hexo制作自己的博客/" class="next">NEXT</a></div><div class="copyright"><p>© 2016 <a href="http://yoursite.com">ERVee</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
